@@ -1,8 +1,8 @@
 import os
 import sys
 
-ROOTDIR = '/mnt/sda6/phuong/w/ncsa_data/data/tar/selected'
-OUTDIR= '/home/phuong/Dropbox/w/attack_sequencing/data/incidents'
+ROOTDIR = '/tmp'
+OUTDIR= '/tmp'
 
 def process_file(fname):
     import csv

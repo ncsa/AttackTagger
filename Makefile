@@ -9,11 +9,11 @@ dev:
 test_eval:
 	nosetests -s tests.test_all:test_eval_detection_timeliness
 
-test_ncsa:
-	nosetests -s tests.test_all:test_ncsa
+test_factg:
+	nosetests -s tests.test_all:test_factg
 
-test_ncsa_all:
-	nosetests -s tests.test_all:test_ncsa_all
+test_factg_all:
+	nosetests -s tests.test_all:test_factg_all
 
 plot:
 	nosetests -s tests.test_plot:test_plot_from_result

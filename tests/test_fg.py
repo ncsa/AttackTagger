@@ -22,6 +22,6 @@ from tables import Events as SE, UserStates as SU, AttackStates as SA
 from user_profile import UserProfile, User_Profile as UP
 import functions
 
-def test_ncsa():
+def test_factg():
         # user profile - (event - metric(s) - state)
         gm = opengm.graphicalModel(l)

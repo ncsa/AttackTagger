@@ -100,7 +100,7 @@ test_incident_list = {
     # "20121102-2.timeline":["10.10.242.230"],
     # "20121226.timeline":["10.10.225.131"],
     # "20130207-2.timeline":["10.10.220.52"],
-    # "20130207.timeline":["prothwin7.ncsa.uiuc.edu"],
+    # "20130207.timeline":["example.host.localdomain"],
     # "20130221.timeline":["cristina"],
     #
     # "20110317-01.timeline": ["u"],
@@ -165,7 +165,7 @@ test_incident_list = {
     #"20121206.timeline":["10.10.249.13"],
     #"20121226.timeline":["10.10.225.131"],
     #"20130207-2.timeline":["10.10.220.52"],
-    #"20130207.timeline":["prothwin7.ncsa.uiuc.edu"],
+    #"20130207.timeline":["example.host.localdomain"],
     #"20130221.timeline":["cristina"],
     #"20130411.timeline":["u"],
     #"20130506.timeline":["u"],

@@ -29,7 +29,7 @@ import datasets
 import attack_sequencing
 import experiment
 
-def test_ncsa():
+def test_factg():
     """
     result: list of incident_results
     [
@@ -149,7 +149,7 @@ class LoggingPool(Pool):
         return Pool.apply_async(self, LogExceptions(func), args, kwds, callback)
 
 
-def test_ncsa_all():
+def test_factg_all():
     import datasets
     import attack_sequencing
     import experiment
@@ -232,7 +232,7 @@ def process_user(u, df_queue):
     return (y_hat, y_hat_pretty)
 
 
-#def test_ncsa_all():
+#def test_factg_all():
 #    import datasets
 #    import attack_sequencing
 #    import experiment
