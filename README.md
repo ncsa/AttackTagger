@@ -8,7 +8,7 @@ And: https://arxiv.org/pdf/1903.08826.pdf
 # Development environment installation
 
 Development environment for this project is contained in a VM for repeatability.
-We use vagrant + virtualbox as our VM provider and run experiments on a Ubuntu 12.04 VM.
+We use vagrant + virtualbox as our VM provider and run experiments on a Ubuntu VM.
 Follow these steps to build your own development environment.
 
 ## Install vagrant + virtualbox 
