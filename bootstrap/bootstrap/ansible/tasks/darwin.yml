@@ -1,0 +1,41 @@
+- name: Tap various Brew Casks
+  homebrew_tap: tap=homebrew/dupes,homebrew/science,caskroom/cask,caskroom/fonts state=present
+  
+- name: Install brew
+  homebrew: name={{ item }} state=present
+  ignore_errors: true
+  with_items:
+    - mackup
+    - tmux
+    - wget
+    - axel
+    - ssh-copy-id
+    - mosh
+    - nmap
+    - coreutils
+
+- name: Install casks
+  homebrew_cask: name={{ item }} state=present
+  ignore_errors: true
+  with_items:
+    - xquartz
+    - font-source-code-pro
+    - nvalt
+    - flux
+    - iterm2
+    - dropbox
+    - google-chrome
+    - spotify
+    - vagrant
+    # - virtualbox # disabled for now since I already have virtualbox installed and run
+    - transmission
+    - cloudup
+    - hipchat
+    - heroku-toolbelt
+    - wireshark
+    - adobe-photoshop-lightroom
+    - mplayerx
+
+- name: Install pip with easy_install
+  command: sudo easy_install pip
+  sudo: true

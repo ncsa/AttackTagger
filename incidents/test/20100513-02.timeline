@@ -1,0 +1,5 @@
+1,u,ALERT_COMMAND_ANOMALY
+2,u,ALERT_MULTIPLE_LOGIN
+3,u,ALERT_WATCHED_COUNTRY_LOGIN
+4,u,read_user_list
+5,u,read_host_configuration

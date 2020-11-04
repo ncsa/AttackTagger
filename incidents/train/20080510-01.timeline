@@ -1,0 +1,5 @@
+1,user,ALERT_SSH_BRUTEFORCE
+2,user,ALERT_MULTIPLE_LOGIN
+3,user,ALERT_WEAK_PASSWORD_LOGIN
+4,user,read_user_list
+5,user,read_host_configuration

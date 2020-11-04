@@ -1,0 +1,4 @@
+localhost ansible_connection=local
+
+# [vps]
+# 69.28.88.126 ansible_ssh_user=phuong

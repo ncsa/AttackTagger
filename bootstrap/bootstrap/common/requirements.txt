@@ -1,0 +1,13 @@
+jinja2
+pyzmq
+tornado
+twisted
+docopt
+jedi
+pyshark
+numpy
+scipy
+scikit-learn
+flask
+django
+ipython

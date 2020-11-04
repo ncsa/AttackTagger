@@ -1,0 +1,5 @@
+1,u,ALERT_SSH_BRUTEFORCE
+2,u,read_host_configuration
+3,u,read_user_list
+4,u,ALERT_NEW_SENSITIVE_CONNECTION
+5,u,ALERT_SENSITIVE_HTTP_URI

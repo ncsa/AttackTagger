@@ -1,0 +1,4 @@
+1352406413,10.10.227.100,ssh_connect,suspicious,compromised
+1352406623,10.10.227.100,download,malicious,prepare_attack
+1352406757,10.10.227.100,ALERT_KNOWN_BAD_DOWNLOADS,malicious,prepare_attack
+1352408200,10.10.227.100,new_authorized_keys,malicious,prepare_attack

@@ -1,0 +1,7 @@
+1,u,ALERT_MULTIPLE_LOGIN
+2,u,ALERT_OLD_INACTIVE_ACCOUNT
+3,u,ALERT_COMMAND_ANOMALY
+4,u,read_host_configuration
+5,u,read_user_list
+6,u,ALERT_DISABLE_HISTORY
+7,u,read_user_list

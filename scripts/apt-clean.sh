@@ -1,0 +1,2 @@
+# cleanup
+apt-get clean
