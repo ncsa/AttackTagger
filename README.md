@@ -28,8 +28,6 @@ writer developed for AttackTagger:
 
 https://github.com/ncsa/bro-zeromq-writer
 
-# Operation
+For an example of how AttackTagger uses Kafka, see:
 
-AttackTagger uses Apache Kafka to consume log events.  It is recommended to use the collector and aggregator
-components of https://github.com/ncsa/idspipeline.  This can also be used to feed honeypot data into AttackTagger
-for testing and/or research.
+https://github.com/ncsa/idspipeline
